@@ -109,7 +109,7 @@ resource "aws_eip" "nat-a" {
 
 resource "aws_eip" "nat-b" {
   tags = {
-    "Name" = "${local.vpc_name}-NAT-b}"
+    "Name" = "${local.vpc_name}-NAT-b"
   }
 }
 
